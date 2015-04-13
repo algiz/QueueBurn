@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="QueueBurn.exe" version="1.0.0.2" publicKeyToken="fe0f9063f07f563e" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Burn.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QueueBurn" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="QueueBurn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QueueBurn.exe" size="29184">
+      <assemblyIdentity name="QueueBurn" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AlQmCcY/PplCGXoF69/Ce1TOS0w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Burn.ico" size="17542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mFvZnMDTaOFPgC0sNYzGWjNKAdA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CC3FOP\Vgh00" issuerKeyHash="f622aac32ea4dfa34ca82c208084099d1f2367ca" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rPhq09EjmvVyMABwan3Po1PyBVw=</DigestValue></Reference></SignedInfo><SignatureValue>hX8VBsZip/438/6f5gtad6sRV089XwAnJCVaOAIrgyu7IgI1yf2dYhCcHkMp0yRdDtHw1b1JiHWYvRzqvZPWllDyTY7zC+BY+LgxM/txbL0eOm6adooi9G04Jxz8pnz36+vu60SI4bHtVCpcM7dh+DmvJCsyiAgEAAQRD1TE5rc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ktBBWpGjg6HJ6eNfQP2kMte2R244TVsHQxNQEjUTgu5nvi1cXB48P/ttCnlHVYVVO3WKNGLE3G4GWOgEsQfEWNyygcBid72rReaYfvcg9w+5eALA4F7+TPv8EB9cvkJkuKVmlXHnV5Kf+eZw32izEfoqEiBciBWCx+xZZbMDows=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5c05f253a3cf7d6a70003072f59a23d1d36af8ac" Description="" Url=""><as:assemblyIdentity name="QueueBurn.exe" version="1.0.0.2" publicKeyToken="fe0f9063f07f563e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CC3FOP\Vgh00</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LULTZX12FJDPEV1+dc7kGI4N0cg=</DigestValue></Reference></SignedInfo><SignatureValue>ijP7W3P+WyM7NC+4rkW6Qe4r39N3Teh2kojYwbSlTKECxl9XjGcmAr6P5AxM4If60KZoV3VyXZ8BzfoHPny9FpXKqhm5DlL1X7JNhTY+7wDS4gumxRw5wokAwtMEXF/vfB94dOaSl10iwUSPC4LRFNJdtcV3tPAgqqbecLDlZyo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ktBBWpGjg6HJ6eNfQP2kMte2R244TVsHQxNQEjUTgu5nvi1cXB48P/ttCnlHVYVVO3WKNGLE3G4GWOgEsQfEWNyygcBid72rReaYfvcg9w+5eALA4F7+TPv8EB9cvkJkuKVmlXHnV5Kf+eZw32izEfoqEiBciBWCx+xZZbMDows=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQXDa4m0HSsbpAg8AS56ka7DANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAQwBDADMARgBPAFAAXABWAGcAaAAwADAwHhcNMTMxMTE2MTcxNTMxWhcNMTQxMTE2MjMxNTMxWjAjMSEwHwYDVQQDHhgAQwBDADMARgBPAFAAXABWAGcAaAAwADAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJLQQVqRo4OhyenjX0D9pDLXtkduOE1bB0MTUBI1E4LuZ74tXFwePD/7bQp5R1WFVTt1ijRixNxuBljoBLEHxFjcsoHAYne9q0XmmH73IPcPuXgCwOBe/kz7/BAfXL5CZLilZpVx51eSn/nmcN9osxH6KhIgXIgVgsfsWWWzA6MLAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEACDjbSD6gIdxMEya7kuSxcMxYBZCA0n0mROsRIEFhrsn8DFpF+w5sQEFGv2pGS6UzIftTz/IODgusQMll0HJnzfE0K+9snvEezx746rPMnFbBfDHyrJOh9DcfWJo7igk0DESuAxQgAYSrdGr6MZ42GY+OzyBUdSRihucUg+jnojw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

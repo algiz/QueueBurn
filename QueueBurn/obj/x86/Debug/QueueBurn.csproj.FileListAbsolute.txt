@@ -1,0 +1,12 @@
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\bin\Debug\QueueBurn.exe
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\bin\Debug\QueueBurn.pdb
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.Form1.resources
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.Properties.Resources.resources
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.exe
+c:\users\vgh00\documents\visual studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.pdb
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\bin\Debug\QueueBurn.exe.manifest
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\bin\Debug\QueueBurn.application
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.exe.manifest
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.application
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.csprojResolveAssemblyReference.cache
+C:\Users\Vgh00\Documents\Visual Studio 2010\Projects\QueueBurn\QueueBurn\obj\x86\Debug\QueueBurn.csproj.GenerateResource.Cache
